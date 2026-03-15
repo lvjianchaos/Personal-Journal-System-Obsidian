@@ -9,6 +9,17 @@
 
 系统通过 **Templater + Journals + Dataview + Tracker/Chart** 实现自动生成、聚合回顾与可视化统计。
 
+<div style="width: 100%; margin: 10px 0;">
+    <img src="https://cdn.jsdelivr.net/gh/lvjianchaos/Images/project/Personal-Journal-System-Obsidian/README%E6%97%A5%E8%AE%B0%E7%A4%BA%E4%BE%8B.png" 
+         style="width: 100%; border-radius: 1em; display: block; margin-bottom: 10px;"/>
+    <span style="display: flex; gap: 10px; width: 100%;">
+        <img src="https://cdn.jsdelivr.net/gh/lvjianchaos/Images/project/Personal-Journal-System-Obsidian/README%E5%91%A8%E8%AE%B0%E7%A4%BA%E4%BE%8B-1.png" 
+             style="width: 50%; border-radius: 1em; object-fit: cover;"/>
+        <img src="https://cdn.jsdelivr.net/gh/lvjianchaos/Images/project/Personal-Journal-System-Obsidian/README%E5%91%A8%E8%AE%B0%E7%A4%BA%E4%BE%8B-2.png" 
+             style="width: 50%; border-radius: 1em; object-fit: cover;"/>
+    </span>
+</div>
+
 ---
 
 ## 目录结构
@@ -49,6 +60,7 @@ Templates/
 ## 已配置插件
 
 ### 社区插件（已在仓库配置中声明）
+
 - templater-obsidian
 - dataview
 - journals
@@ -61,6 +73,7 @@ Templates/
 - obsidian-minimal-settings
 
 ### 常用核心插件（建议保持开启）
+
 - File explorer / Search / Backlinks / Graph
 - Daily notes / Templates / Command palette
 - Outline / Bookmarks / Page preview
