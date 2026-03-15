@@ -1,0 +1,72 @@
+---
+date: <% moment(tp.file.title,'YYYY-MM-DD').format("YYYY-MM-DD") %>
+aliases: 
+tags:
+  - "#type/daily-note"
+log-sleep-hours: 
+log-sleep-rating:
+log-learn-hours: 
+log-learn-rating:
+log-healthy-eating: 
+log-day-rating:
+---
+
+---
+```calendar-nav
+```
+---
+
+## Plan Pages
+
+### Tasks
+### Checks
+- [ ] #task [[]]
+
+**==注意：一定要在今日之结束 整理笔记、心得==**
+
+---
+## Morning Pages
+
+> [! journal]- 在这天...
+> ```dataview
+LIST
+FROM "Journal/01 Daily"
+WHERE dateformat(file.day,"MM-dd") = dateformat(this.file.day,"MM-dd")
+
+> [! calendar]- 今日创建的笔记
+>```dataview
+TABLE created, updated as modified, tags, summary
+FROM "" AND !"Journal" AND !"Templates"
+WHERE icontains(dateformat(file.ctime, "YYYY-MM-DD"), dateformat(this.file.day, "YYYY-MM-DD"))
+
+> [! task]- 任务
+> ``` dataview
+>TASK
+>WHERE !completed
+>AND icontains(text, "[[<% moment(tp.file.title,'YYYY-MM-DD').format("YYYY-MM") %>-")
+>AND icontains(text, "#task")
+>GROUP BY file.name as filename
+>SORT rows.files.ctime DESC
+
+- `**` 在此进行晨间头脑放空/自由书写（把想法一股脑写下来） `**`
+
+---
+## Log Pages
+
+`**` 这是粘贴今日时间日志统计截图 `**`
+
+---
+## Pictures
+### <% tp.file.title %>
+
+`**` 这里放三张（更多或更少）照片 `**`
+
+---
+
+## Evening Review
+
+#log/day-review 
+### Memos
+#memos/good 今日学了哪些有用的知识，遇到什么有趣的事情，有些什么昙花一现的想法；觉得自己今天在哪方面做得还不错？
+#memos/difficult 今天遇到了什么问题/挑战，身体/精神状态上有何不适？
+#memos/different 今日所闻所见所思所做之事有哪些可以改善？如何进行改善？希望自己朝哪个方向迈进？

@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "source": "multitext",
+    "summary": "multitext",
+    "log-sleep-hours": "number",
+    "log-sleep-rating": "number",
+    "log-learn-hours": "number",
+    "log-learn-rating": "number",
+    "log-healthy-eating": "number",
+    "log-day-rating": "number"
+  }
+}
