@@ -72,7 +72,7 @@ Templates/
 1. 安装 Obsidian。
 2. 选择 **Open folder as vault**，打开本仓库根目录。
 3. 打开设置，确认社区插件可用并启用（若首次打开需允许第三方插件）。
-4. 在 Journals 中使用对应命令创建周期日志：
+4. 在 Journals 中点击日历中日、周、月、季度、年创建周期日志：
    - `Journal Daily`
    - `Journal Weekly`
    - `Journal Monthly`
@@ -109,6 +109,7 @@ Templates/
 ## Frontmatter 指标说明（Daily）
 
 常用统计字段：
+
 - `log-sleep-hours`：睡眠时长
 - `log-sleep-rating`：睡眠质量评分
 - `log-learn-hours`：学习时长
