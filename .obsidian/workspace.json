@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5f1f579fe2c320c2",
+        "id": "49dc3d4e790a886d",
         "type": "tabs",
         "children": [
           {
-            "id": "cb836220f9d075ae",
+            "id": "b55e5d153349964b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Daily Note Template.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily Note Template"
+              "title": "新标签页"
             }
           }
         ]
@@ -87,6 +83,7 @@
       {
         "id": "ae9bb0bd64884813",
         "type": "tabs",
+        "dimension": 37.86764705882353,
         "children": [
           {
             "id": "a913ba1ac9b8eab5",
@@ -97,6 +94,27 @@
               "icon": "calendar-days",
               "title": "Calendar"
             }
+          }
+        ]
+      },
+      {
+        "id": "8a6972bef4c567f5",
+        "type": "tabs",
+        "dimension": 62.13235294117647,
+        "children": [
+          {
+            "id": "3aba4243ec447a32",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
           },
           {
             "id": "f605b038d18471a7",
@@ -104,17 +122,16 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Weekly Note Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Weekly Note Template 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -123,12 +140,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Weekly Note Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Weekly Note Template 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -145,37 +161,12 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
-          {
-            "id": "3aba4243ec447a32",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Templates/Weekly Note Template.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Weekly Note Template 的大纲"
-            }
-          },
-          {
-            "id": "29c93e8064c665b8",
-            "type": "leaf",
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,20 +181,34 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "cb836220f9d075ae",
+  "active": "b55e5d153349964b",
   "lastOpenFiles": [
-    "Notes/2026-03-16.md",
-    "Templates/Daily Note Template.md",
     "Journal/01 Daily/2026/03/2026-03-16.md",
+    "Notes/2026-03-24.md",
+    "Notes/Wheel Of Life（生命之轮）.md",
+    "Notes/HeatMap - Contribution Map Calendar.md",
+    "Notes/关于学习方法.md",
+    "Templates/New Note Template.md",
+    "Notes/Invalid date.md",
+    "Templates/Daily Note Template.md",
     "Templates/log Templates/log highlight.md",
+    "Notes/2026-03-16.md",
+    "Templates/Weekly Note Template.md",
+    "README.md",
+    "Notes/2024-08-21.md",
+    "Journal/02 Weekly/2026/03/2026-W12.md",
+    "Journal/03 Monthly/2026/2026-03.md",
+    "Journal/03 Monthly/2026",
+    "Journal/03 Monthly",
+    "Journal/02 Weekly/2026/03",
+    "Journal/02 Weekly/2026",
+    "Journal/02 Weekly",
     "Journal/01 Daily/2026/03",
     "Journal/01 Daily/2026",
     "Journal/01 Daily",
     "Notes/是的.md",
     "Templates/Yearly Note Template.md",
-    "Templates/Weekly Note Template.md",
     "Templates/Quarterly Note Template.md",
-    "Templates/New Note Template.md",
     "Templates/Monthly Note Template.md",
     "Notes/未命名 1.base",
     "Notes/未命名.base",
@@ -214,20 +219,6 @@
     "Journal/01 Daily/2026/01/2026-01-19.md",
     "Journal/01 Daily/2026/01/2026-01-13.md",
     "Journal/01 Daily/2025/07/2025-07-14.md",
-    "Journal/01 Daily/2026/01",
-    "Journal/02 Weekly/2025/07/2025-W29.md",
-    "Journal/02 Weekly/2025/10/2025-W44.md",
-    "Journal/01 Daily/2025/12/2025-12-16.md",
-    "Journal/01 Daily/2025/12/2025-12-17.md",
-    "Journal/01 Daily/2025/12/2025-12-15.md",
-    "闲言碎语/【2025-08-16】开端，关于真诚的写作.md",
-    "Journal/01 Daily/2025/12",
-    "随便写写/小说/盛夏、死蝉与逝去的友人.md",
-    "Journal/01 Daily/2025/11/2025-11-02.md",
-    "Journal/01 Daily/2025/11/2025-11-01.md",
-    "Journal/02 Weekly/2025/10",
-    "Journal/01 Daily/2025/11",
-    "Journal/01 Daily/2025/10",
     "Notes/关于学习方法论.canvas",
     "Attachments/泛式.webp",
     "Attachments/25-06-02_2.png",

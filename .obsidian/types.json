@@ -10,6 +10,8 @@
     "log-learn-hours": "number",
     "log-learn-rating": "number",
     "log-healthy-eating": "number",
-    "log-day-rating": "number"
+    "log-day-rating": "number",
+    "created": "text",
+    "updated": "text"
   }
 }
